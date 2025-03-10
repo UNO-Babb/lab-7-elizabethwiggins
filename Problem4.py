@@ -5,8 +5,14 @@ from NumberTests import isPrime
 
 
 def main():
-    range(2,10001)
-    
+ index=0
+ for num in range(2,10001):
+   if isPrime(num)==True:
+     list=(num)
+     print (list)
+  
+     
+
     
 
 
